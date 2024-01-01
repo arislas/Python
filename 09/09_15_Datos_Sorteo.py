@@ -11,4 +11,4 @@ media = sorteo.media_intentos(n)
 
 print(f"\nLa media de intentos de {n} sorteos es: {media}\n")
 coste = 20 * media
-print(f"El coste medio para acertar el número es {coste}\n")
+print(f"El coste medio para acertar el número es {coste} €.\n")
