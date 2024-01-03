@@ -1,0 +1,3 @@
+Con python puedes usar listas.
+Con python puedes usar diccionarios.
+Con python puedes crear clases y objetos.
