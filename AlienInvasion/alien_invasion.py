@@ -6,9 +6,10 @@ class AlienInvasion:
     """Overall class to manage game assets and behavior."""
     def __init__(self):
         """Initialize the game, and create game resources."""
-
-        # Initializes the background settings that Pygame needs to work properly
+        # Initialize the background settings that Pygame needs to work properly
         pygame.init()
+        # Creamos el reloj
+        self.clock = pygame.time.Clock()
 
         # Create a display window
         self.screen = pygame.display.set_mode((1200, 800))
@@ -24,6 +25,8 @@ class AlienInvasion:
 
             # Make the most recently drawn screen visible.
             pygame.display.flip()
+            # Configuramos la velocidad del reloj a 60 veces por segundo
+            self.clock.tick(60)
 
 if __name__ == '__main__':
     # Make a game instance, and run the game.
